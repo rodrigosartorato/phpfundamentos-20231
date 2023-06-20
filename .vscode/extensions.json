@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "formulahendry.code-runner",
+        "bmewburn.vscode-intelephense-client",
+        "hakcorp.php-awesome-snippets",
+        "jaguadoromero.vscode-php-create-class"
+    ]
+}
