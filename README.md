@@ -38,5 +38,6 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Função seta (arrow function)
 - Inclusão de arquivos (include, require)
 - PHP na web
+- Atividade 2
 
 </details>
