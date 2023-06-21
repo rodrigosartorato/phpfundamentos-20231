@@ -27,3 +27,16 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Desafio 1
 
 </details>
+
+<details><summary>Aula3</summary>
+
+- Revisão
+- Funções definidas pelo usuário
+- Argumentos de função
+- Escopo
+- Funções anônimas (closure / lambda)
+- Função seta (arrow function)
+- Inclusão de arquivos (include, require)
+- PHP na web
+
+</details>
