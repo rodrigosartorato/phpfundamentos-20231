@@ -41,3 +41,15 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Atividade 2
 
 </details>
+
+<details><summary>Aula4</summary>
+
+- Revisão
+- PHP na web: pegando dados do formulário
+- Pilha de execução (Call Stack)
+- Erros e Exceções
+- Tratamento de exceções
+- Lançamento de exceções personalizada
+- Atividade 3
+
+</details>
