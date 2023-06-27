@@ -53,3 +53,16 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Atividade 3
 
 </details>
+
+<details><summary>Aula5</summary>
+
+- Revisão
+- Programação Orientada a Obejtos
+- Encapsulamento
+- Polimorfismo
+- Abstração
+- Atributos e métodos estáticos
+- Namespaces
+- Atividade 4
+
+</details>
