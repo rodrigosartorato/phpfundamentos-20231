@@ -66,3 +66,16 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Atividade 4
 
 </details>
+
+<details><summary>Aula6</summary>
+
+- Revisão
+- Polimorfismo e Abstração com Interface
+- Banco de dados
+- Extensão PDO
+- Conexão com Banco de dados
+- Executando _queries_
+- _Query_ parametrizada
+- Transações
+
+</details>
