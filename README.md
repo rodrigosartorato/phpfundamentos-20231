@@ -79,3 +79,16 @@ Nas pastas de aula, são encontrados os código relativos ao assunto abordado na
 - Transações
 
 </details>
+
+<details><summary>Aula7</summary>
+
+- Revisão
+- O que é Composer
+- Instalação do Composer
+- Iniciando projeto com Composer
+- Autoload do Composer
+- Adicionando pacotes pelo Composer
+- Removendo pacotes pelo Composer
+- Desafio 2
+
+</details>

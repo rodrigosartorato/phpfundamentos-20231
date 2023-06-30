@@ -1,6 +1,6 @@
 {
     "name": "treinamento-php/buscador-criticas",
-    "description": "Buscador de vagas do site da Accenture",
+    "description": "Buscador de críticas de filmes",
     "type": "library",
     "autoload": {
         "psr-4": {
