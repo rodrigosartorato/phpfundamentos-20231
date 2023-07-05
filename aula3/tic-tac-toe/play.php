@@ -1,8 +1,13 @@
 <?php
 require_once "templates/header.php";
 
-if (! playersRegistered()) {
+if (!playersRegistered()) {
     header("location: index.php");
+}
+
+// Check if the restart button was clicked
+if (isset($_POST['restart'])) {
+    resetBoard(); // Call the resetBoard() function
 }
 
 if ($_POST['cell']) {
@@ -44,11 +49,9 @@ if (playsCount() >= 9) {
 
             if ($i == 2 || $i == 8) {
                 $additionalClass = 'vertical-border';
-            }
-            else if ($i == 4 || $i == 6) {
+            } else if ($i == 4 || $i == 6) {
                 $additionalClass = 'horizontal-border';
-            }
-            else if ($i == 5) {
+            } else if ($i == 5) {
                 $additionalClass = 'center-border';
             }
             ?>
@@ -73,6 +76,29 @@ if (playsCount() >= 9) {
 
 </form>
 
+<form method="post" action="play.php">
+    <button type="submit" name="restart">Restart</button>
+</form>
+
+<h3>Play History</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Player</th>
+            <th>Cell</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach (getPlayHistory() as $play): ?>
+            <tr>
+                <td><?php echo $play['player']; ?></td>
+                <td><?php echo $play['cell']; ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+
 <script type="text/javascript">
     function enableButton() {
         document.getElementById('play-btn').disabled = false;
@@ -81,3 +107,4 @@ if (playsCount() >= 9) {
 
 <?php
 require_once "templates/footer.php";
+?>

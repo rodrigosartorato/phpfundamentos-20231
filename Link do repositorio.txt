@@ -1,0 +1,7 @@
+Link para o repositório com os códigos das aulas
+
+https://github.com/angela-araujo/phpfundamentos-20231
+
+
+curl --location 'https://oic-prod-gruszg9zlxj2-gr.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/integrations/ERP_BILLING_UPSERT|07.03.0019' \
+--header 'Authorization: Basic 12344556'

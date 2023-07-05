@@ -54,11 +54,6 @@ button[disabled] {
     width: 100%;
 }
 
-.wrapper td {
-    text-align: center;
-    vertical-align: middle;
-}
-
 .tic-tac-toe {
     margin: 3em;
 }
@@ -92,4 +87,22 @@ button[disabled] {
     font-size: 8pt;
     color: red;
     margin-top: 30px;
+}
+
+.play-history {
+    margin-top: 20px;
+}
+
+.play-history h3 {
+    margin-bottom: 10px;
+}
+
+.play-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.play-history li {
+    margin-bottom: 5px;
 }

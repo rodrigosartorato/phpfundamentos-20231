@@ -3,6 +3,21 @@
 session_start();
 error_reporting(E_ERROR | E_PARSE);
 
+
+function getPlayHistory()
+{
+    $playHistory = [];
+
+    for ($i = 1; $i <= playsCount(); $i++) {
+        $play = [];
+        $play['player'] = getCell($i);
+        $play['cell'] = $i;
+        $playHistory[] = $play;
+    }
+
+    return $playHistory;
+}
+
 function registerPlayers($playerX="", $playerO="") {
     $_SESSION['PLAYER_X_NAME'] = $playerX;
     $_SESSION['PLAYER_O_NAME'] = $playerO;
