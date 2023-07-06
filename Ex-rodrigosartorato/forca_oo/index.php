@@ -1,8 +1,6 @@
 <?php
-session_start();
-
 include __DIR__ . '/HangmanGame.php';
-
+session_start();
 if (isset($_POST['newWord'])) {
     unset($_SESSION['hangman']);
 }
