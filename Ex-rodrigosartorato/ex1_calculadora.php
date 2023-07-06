@@ -3,7 +3,7 @@
 function lerEntrada($mensagem)
 {
     echo $mensagem . ": ";
-    return trim(fgets(STDIN));
+    return readline(); //trim(fgets(STDIN));
 }
 
 // Ler a operação, o primeiro número e o segundo número
