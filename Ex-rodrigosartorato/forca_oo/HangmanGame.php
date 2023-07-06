@@ -1,3 +1,4 @@
+<?php
 class HangmanGame {
     private $wordFile;
     private $answer;
@@ -104,3 +105,4 @@ class HangmanGame {
         return $this->hidden;
     }
 }
+?>
